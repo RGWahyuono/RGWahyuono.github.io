@@ -495,6 +495,35 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
+# Cliens
+--------------------------------------------------------------*/
+#hero .cliens {
+  padding: 12px 0;
+  text-align: center;
+}
+
+#hero .cliens img {
+  max-width: 59%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+/*   -webkit-filter: grayscale(100); */
+/*   filter: grayscale(100); */
+}
+
+#hero .cliens img:hover {
+  -webkit-filter: none;
+  filter: none;
+  transform: scale(1.31);
+}
+
+@media (max-width: 768px) {
+  #hero .cliens img {
+    max-width: 40%;
+  }
+}
+
+/*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
@@ -1588,3 +1617,4 @@ section {
 .team .member .social a + a {
   margin-left: 8px;
 }
+
