@@ -666,7 +666,7 @@ section {
   margin-top: 10px;
 }
 
-.aboutus .content ul i {
+.aboutus .content ul ii {
   position: absolute;
   left: 0;
   top: 2px;
@@ -700,6 +700,32 @@ section {
   background: #47b2e4;
   color: #fff;
   text-decoration: none;
+}
+
+.aboutus .cliens {
+  padding: 12px 0;
+  text-align: center;
+}
+
+.aboutus .cliens img {
+  max-width: 73%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+/*   -webkit-filter: grayscale(100); */
+/*   filter: grayscale(100); */
+}
+
+.aboutus .cliens img:hover {
+  -webkit-filter: none;
+  filter: none;
+  transform: scale(1.31);
+}
+
+@media (max-width: 768px) {
+  .aboutus .cliens img {
+    max-width: 59%;
+  }
 }
 
 /*--------------------------------------------------------------
